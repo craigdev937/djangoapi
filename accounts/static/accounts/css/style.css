@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Peralta');
+
+body {
+    background-color: #494E6B;
+}
+
+#login {
+    background-color: #FF966D;
+    padding: 20px;
+    font-family: 'Peralta', cursive;    
+}
+
