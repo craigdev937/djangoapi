@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Signup</title>
+    <link rel="stylesheet" href="{% static "accounts/css/style.css" %}">
+</head>
+<body>
+    <h1 id="login">Signup</h1>
+    <form action="POST">
+        <input type="text" placeholder="Username" required><br>
+        <input type="email" placeholder="Email" required><br>
+        <input type="password" placeholder="Password" required><br>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+
